@@ -1,0 +1,29 @@
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+}
+.accordion{
+    display: flex;
+    background-color: #FF6060;
+    flex-basis: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.accordion-title{
+    display: flex;
+    flex-basis: 100%;
+
+}
+.accordion-content{
+    background-color: #F6F6F6;
+    color:#FF6060 ;
+}
+.accordion-content p{
+    padding: 15px;
+    margin: 0;
+}
+
+.chevron_up{
+    transform: rotate(180deg);
+}
+

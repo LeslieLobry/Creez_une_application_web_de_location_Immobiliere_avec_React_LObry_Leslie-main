@@ -1,0 +1,6 @@
+.home-contenant{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 4% 
+}

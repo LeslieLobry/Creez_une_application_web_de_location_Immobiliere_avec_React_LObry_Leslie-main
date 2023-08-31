@@ -1,0 +1,10 @@
+.footer-components{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 25px;
+    gap: 30px;
+    
+}

@@ -1,0 +1,16 @@
+.img-contenant{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.img img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .baniere-img img{
+        width: 100%;
+    }
+}

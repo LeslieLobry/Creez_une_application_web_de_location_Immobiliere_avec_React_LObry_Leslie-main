@@ -1,0 +1,130 @@
+.logement{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 4% 0 4%;
+   gap: 5px;
+
+}
+.logement-container{
+    color:#FF6060;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:15px ;
+}
+.logement-tags{
+    display: flex;
+    gap:25px;
+}
+.tags{
+    border: 1px solid #FF6060;
+    border-radius: 25px;
+    background-color: #FF6060;
+    color: white;
+    padding: 2px 29px;
+}
+.logement-title{
+    font-size: 26px;
+    font-weight: 300;
+}
+.logement-info-container-1{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.logement-info-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logement-host{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+} 
+.logement-name-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.logement-name{
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+.logement-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.logement-img img{
+    border-radius: 100px;
+    width: 90%;
+}
+.rating{
+    display: flex;
+    justify-content: flex-end;
+}
+.logement-accordeon{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 45%;
+    color: white;
+} 
+
+.equipements {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 45%;
+    color: white;
+}
+li{
+    list-style: none;
+}
+ @media screen and (max-width: 850px) {
+    .logement{
+        margin: 20px;
+    }
+    .logement-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .logement-host{
+        display: flex;
+        justify-content: center;
+    }
+    .logement-accordeon{
+        display: flex ;
+        flex-direction: column;
+        
+    }
+    .description{
+        width: 100%;
+    } 
+    .equipements{
+        width: 100%;
+    }
+    .logement-info-container-2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+    .rating{
+    display: flex;
+    align-items: center;
+}
+    .tags{
+padding: 5px;
+}
+}

@@ -1,0 +1,20 @@
+.text-accordion{
+    border-radius: 15px;
+    font-size: 25px; 
+    color: white;
+  
+} 
+.About-contenant{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color:#FF6060;
+    margin: 4%;
+}
+
+.about-mvt{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
